@@ -1,20 +1,20 @@
-<svg width="86.3" height="20" viewBox="0 0 863 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Points: 5/100">
-  <title>Points: 5/100</title>
+<svg width="93.3" height="20" viewBox="0 0 933 200" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Points: 20/100">
+  <title>Points: 20/100</title>
   <linearGradient id="a" x2="0" y2="100%">
     <stop offset="0" stop-opacity=".1" stop-color="#EEE"/>
     <stop offset="1" stop-opacity=".1"/>
   </linearGradient>
-  <mask id="m"><rect width="863" height="200" rx="30" fill="#FFF"/></mask>
+  <mask id="m"><rect width="933" height="200" rx="30" fill="#FFF"/></mask>
   <g mask="url(#m)">
     <rect width="433" height="200" fill="#555"/>
-    <rect width="430" height="200" fill="#f85149" x="433"/>
-    <rect width="863" height="200" fill="url(#a)"/>
+    <rect width="500" height="200" fill="#f85149" x="433"/>
+    <rect width="933" height="200" fill="url(#a)"/>
   </g>
   <g aria-hidden="true" fill="#fff" text-anchor="start" font-family="Verdana,DejaVu Sans,sans-serif" font-size="110">
     <text x="60" y="148" textLength="333" fill="#000" opacity="0.25">Points</text>
     <text x="50" y="138" textLength="333">Points</text>
-    <text x="488" y="148" textLength="330" fill="#000" opacity="0.25">5/100</text>
-    <text x="478" y="138" textLength="330">5/100</text>
+    <text x="488" y="148" textLength="400" fill="#000" opacity="0.25">20/100</text>
+    <text x="478" y="138" textLength="400">20/100</text>
   </g>
   
 </svg>
