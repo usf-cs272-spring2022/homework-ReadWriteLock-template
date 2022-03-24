@@ -13,11 +13,11 @@ Below are some hints that may help with this homework assignment:
 
   - Start with using built-in options to make the `ThreadSafeIndexedSet` thread safe, *instead* of your own custom `SimpleReadWriteLock` class. This should help you pass the non-approach tests in `ThreadSafeIndexedSetTest` to make sure you are `@Overriding` methods correctly. Specifically:
   
-      - Use the `synchronized` keyword and `@Override` the appropriate methods. Try to pass the non-approach `ThreadSafeIndexedSetTest` tests.
+      - Use the `synchronized` keyword and `@Override` the appropriate methods. Try to pass the `ThreadSafeIndexedSetTest` tests that check your code is overriding the correct methods (the `testOverridden` and `testNotOverridden` test methods).
       
-      - Switch to using the built-in `ReentrantReadWriteLock` to make those methods thread-safe instead. Try to pass the non-approach `ThreadSafeIndexedSetTest` tests. When using the conditional lock, decide whether a block of operations are read operations, write operations, or mixed read and write operations with respect to the **shared** data. Look at the lecture notes for discussion and code on conditional locks and how they can be used.
+      - Switch to using the built-in `ReentrantReadWriteLock` to make those methods thread-safe instead. Try to pass the other non-approach `ThreadSafeIndexedSetTest` tests. When using the conditional lock, decide whether a block of operations are read operations, write operations, or mixed read and write operations with respect to the **shared** data. Look at the lecture notes for discussion and code on conditional locks and how they can be used.
       
-      - Finally, switch to using the `SimpleReadWriteLock` class and switch your focus on passing the `SimpleReadWriteLock` tests next. (The `ReentrantReadWriteLock` and `SimpleReadWriteLock` classes are designed to be interchangeable, so you should be able to swap without modifying most of your code.)
+      - Finally, switch to using the `SimpleReadWriteLock` class and switch your focus on passing the `SimpleReadWriteLock` tests next. The `ReentrantReadWriteLock` and `SimpleReadWriteLock` classes are designed to be interchangeable, so you should be able to swap without modifying most of your code.
   
   - The Javadoc comments for the `SimpleReadWriteLock` are written to give clues on the conditions the code should use for the `wait()` or `notifyAll()` calls.
 
