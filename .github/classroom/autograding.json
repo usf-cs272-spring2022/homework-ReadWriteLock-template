@@ -1,0 +1,94 @@
+{
+  "tests": [
+    {
+      "name": "Check Commit Count",
+      "setup": "",
+      "run": "bash check_commits.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 5
+    },
+    {
+      "name": "Check Warnings",
+      "setup": "",
+      "run": "bash check_warnings.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 5
+    },
+    {
+      "name": "Recompile (No Points)",
+      "setup": "",
+      "run": "bash recompile_homework.sh",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 0
+    },
+    {
+      "name": "Running Group A Tests",
+      "setup": "",
+      "run": "bash run_test.sh A",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 15
+    },
+    {
+      "name": "Running Group B Tests",
+      "setup": "",
+      "run": "bash run_test.sh B",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 15
+    },
+    {
+      "name": "Running Group C Tests",
+      "setup": "",
+      "run": "bash run_test.sh C",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 15
+    },
+    {
+      "name": "Running Group D Tests",
+      "setup": "",
+      "run": "bash run_test.sh D",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 15
+    },
+    {
+      "name": "Running Group E Tests",
+      "setup": "",
+      "run": "bash run_test.sh E",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 15
+    },
+    {
+      "name": "Running Group F Tests",
+      "setup": "",
+      "run": "bash run_test.sh F",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 15
+    }
+  ]
+}
