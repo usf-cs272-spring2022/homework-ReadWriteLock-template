@@ -30,7 +30,7 @@
       "timeout": 3,
       "points": 0
     },
-    {
+        {
       "name": "Running Group A Tests",
       "setup": "",
       "run": "bash run_test.sh A",
@@ -38,7 +38,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 3,
-      "points": 15
+      "points": 10
     },
     {
       "name": "Running Group B Tests",
@@ -48,7 +48,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 3,
-      "points": 15
+      "points": 10
     },
     {
       "name": "Running Group C Tests",
@@ -58,7 +58,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 3,
-      "points": 15
+      "points": 10
     },
     {
       "name": "Running Group D Tests",
@@ -68,7 +68,7 @@
       "output": "",
       "comparison": "included",
       "timeout": 3,
-      "points": 15
+      "points": 10
     },
     {
       "name": "Running Group E Tests",
@@ -78,12 +78,42 @@
       "output": "",
       "comparison": "included",
       "timeout": 3,
-      "points": 15
+      "points": 20
     },
     {
       "name": "Running Group F Tests",
       "setup": "",
       "run": "bash run_test.sh F",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 5
+    },
+    {
+      "name": "Running Group G Tests",
+      "setup": "",
+      "run": "bash run_test.sh G",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 5
+    },
+    {
+      "name": "Running Group H Tests",
+      "setup": "",
+      "run": "bash run_test.sh H",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 3,
+      "points": 5
+    },
+    {
+      "name": "Running Group I Tests",
+      "setup": "",
+      "run": "bash run_test.sh I",
       "input": "",
       "output": "",
       "comparison": "included",
