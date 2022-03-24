@@ -5,7 +5,7 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>edu.usfca.cs272</groupId>
-	<artifactId>HomeworkName</artifactId>
+	<artifactId>ReadWriteLock</artifactId>
 	<version>2022-01</version>
 
 	<properties>
